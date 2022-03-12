@@ -3,6 +3,8 @@
 A tool to trace and display outstanding allocations to detect
 memory leaks in user-mode processes and the kernel.
 
+Original tools in python [here](https://github.com/iovisor/bcc/tree/master/tools).
+
 ```
 USAGE: memleak [-h] [-p PID] [-t] [-a] [-o OLDER] [-c COMMAND]
                 [--combined-only] [--wa-missing-free] [-s SAMPLE_RATE]
